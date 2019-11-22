@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<h1>Hello, Reload!</h1>
+
+  <p>
+    This page reloads automatically in response to editing its resources.
+  </p>
+
+  <footer>
+    Reload by <a href="https://github.com/duzun/watchem.js">watchem.js</a>
+  </footer>
+
+	<script src="main.js" async></script>
+
+  <!-- We need either jquery.ajax() or jajax() for watchem.js to work -->
+	<script src="https://unpkg.com/jajax.js"></script>
+  <!-- Just drop the watchem.js script in -->
+  <script src="https://unpkg.com/watchem.js" async></script>
+  <!-- or -->
+	<!-- <script src="https://cdn.duzun.me/js/watchem.js" async></script> -->
+</body>
+</html>

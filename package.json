@@ -1,0 +1,21 @@
+{
+  "name": "watchem-starter-page",
+  "version": "1.0.0",
+  "description": "A sample project using watchem.js for live-reload dev of a web-page",
+  "main": "public/main.js",
+  "scripts": {
+    "start": "superstatic public/"
+  },
+  "keywords": [
+    "watchem",
+    "html",
+    "css",
+    "js",
+    "livereload"
+  ],
+  "author": "Dumitru Uzun <contanct@duzun.me> (https://DUzun.Me)",
+  "license": "MIT",
+  "devDependencies": {
+    "superstatic": "^6.0"
+  }
+}
