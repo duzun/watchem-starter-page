@@ -16,6 +16,6 @@
   "author": "Dumitru Uzun <contact@duzun.me> (https://DUzun.Me)",
   "license": "MIT",
   "devDependencies": {
-    "superstatic": "^7.1.0"
+    "superstatic": "^9.0.2"
   }
 }
